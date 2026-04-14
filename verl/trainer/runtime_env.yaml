@@ -1,0 +1,6 @@
+working_dir: ./
+excludes: ["/.git/"]
+conda: "verl"
+env_vars:
+  TORCH_NCCL_AVOID_RECORD_STREAMS: "1"
+  WANDB_API_KEY: "YOUR_WANDB_API_KEY"
