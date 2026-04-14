@@ -95,7 +95,7 @@ We provide evaluation scripts under `eval/` based on [vLLM](https://github.com/v
 
 **Step 1 — (Optional) Convert FSDP checkpoint to HuggingFace format:**
 ```bash
-python convert_ckpt.py /path/to/fsdp_checkpoint /path/to/base_model /path/to/output_model
+python scripts/convert_ckpt.py /path/to/fsdp_checkpoint /path/to/base_model /path/to/output_model
 ```
 
 **Step 2 — Run evaluation:**
